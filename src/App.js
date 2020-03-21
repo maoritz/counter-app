@@ -52,7 +52,6 @@ class App extends Component {
   };
 
   render() {
-    console.log("app-rendered");
     return (
       <React.Fragment>
         <NavBar

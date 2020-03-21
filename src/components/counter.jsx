@@ -19,14 +19,14 @@ class Counter extends Component {
         <div className="col">
           <button
             onClick={() => this.props.onIncrement(this.props.counter)}
-            className="btn btn-secondary btn-sm "
+            className="btn btn-secondary btn-sm"
           >
             +
           </button>
           <button
             disabled={this.props.counter.value === 0 ? true : false}
             onClick={() => this.props.onDecrement(this.props.counter)}
-            className="btn btn-secondary btn-sm m-2 "
+            className="btn btn-secondary btn-sm m-2"
           >
             -
           </button>
